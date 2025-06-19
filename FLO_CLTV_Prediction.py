@@ -46,7 +46,7 @@ pd.set_option("display.float_format", lambda x: '%.4f' % x)
 
 # GÖREV 1: Veriyi Hazırlama
            # 1. flo_data_20K.csv verisini okuyunuz.Dataframe’in kopyasını oluşturunuz.
-            df_ = pd.read_csv('data/flo_data_20k.csv')
+            df_ = pd.read_csv('FLO_CLTV_Prediction/flo_data_20k.csv')
             df = df_.copy()  # orijinal veriyi bozmamak için kopya
 
            # 2. Aykırı değerleri baskılamak için gerekli olan outlier_thresholds ve replace_with_thresholds fonksiyonlarını tanımlayınız.
